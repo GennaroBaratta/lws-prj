@@ -156,7 +156,7 @@ top_10 = sorted_cluster[0:10]
 del sorted_cluster
 
 final_pd = pd.DataFrame(columns=['Address','Wallet','Fonte'])
-oneshot = False #fermarsi al primo wallet trovato?
+oneshot = True #fermarsi al primo wallet trovato?
 chiave=0
 for cluster in top_10:
     cluster_pd = pd.DataFrame([cluster[0]] + cluster[1],columns=['addressId'])
@@ -188,4 +188,4 @@ for cluster in top_10:
     chiave = chiave + 1
         
 
-final_pd.to_csv('DataSets/risultato.csv')
+final_pd.to_csv('DataSets/risultato2.csv')
