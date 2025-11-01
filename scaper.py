@@ -311,7 +311,7 @@ def cerca_indirizzo(indirizzo):
         else:
             return 'Information not found'  # Information not found
     else:
-        return f'Errore nella richiesta: {response.status_code}'  # Request error
+        return f'Request error: {response.status_code}'  # Request error
 
 
 with open("clusters.json","r") as f:
