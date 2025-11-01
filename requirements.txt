@@ -1,0 +1,19 @@
+# Bitcoin De-anonymization Project Dependencies
+# Core data processing and analysis
+pandas>=1.5.0
+numpy>=1.23.0
+
+# Web scraping and automation
+selenium>=4.0.0
+beautifulsoup4>=4.11.0
+requests>=2.28.0
+
+# State machine for crawler
+python-statemachine>=2.0.0
+
+# Jupyter notebook support (optional, for analysis)
+jupyter>=1.0.0
+notebook>=6.5.0
+
+# Additional utilities
+# If using Edge WebDriver, ensure you have msedge-selenium-tools or use selenium 4.x which has built-in Edge support
