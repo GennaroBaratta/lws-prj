@@ -309,7 +309,7 @@ def cerca_indirizzo(indirizzo):
         if href:
             return href.split('/wallet/')[-1]
         else:
-            return 'Informazioni non trovate'  # Information not found
+            return 'Information not found'  # Information not found
     else:
         return f'Errore nella richiesta: {response.status_code}'  # Request error
 
