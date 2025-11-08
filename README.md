@@ -19,10 +19,6 @@
 - [Usage](#usage)
 - [Project Architecture](#project-architecture)
 - [Results and Analysis](#results-and-analysis)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
-- [Contact](#contact)
 
 ---
 
